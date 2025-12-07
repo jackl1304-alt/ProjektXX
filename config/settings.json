@@ -1,0 +1,62 @@
+{
+  "youtube_api_key": "HIER_EINFÜGEN",
+  "tiktok_username": "username",
+  "tiktok_password": "passwort",
+  "clapper_email": "email",
+  "clapper_password": "passwort",
+  "timezone": "Europe/Berlin",
+  "scheduler_jobstore_url": "",
+  "scheduler_max_workers": 4,
+  "scheduler_max_instances": 1,
+  "upload_times": {
+    "youtube": "18:00",
+    "tiktok": "18:05",
+    "clapper": "18:10"
+  },
+  "video_folder": "./output",
+  "temp_folder": "./temp",
+  "reddit_subreddits": [
+    "memes",
+    "unexpected",
+    "nextfuckinglevel"
+  ],
+  "reddit_subreddit": "memes",
+  "reddit_limit": 3,
+  "render_vertical": true,
+  "render_video_bitrate": "6000k",
+  "render_audio_bitrate": "192k",
+  "render_preset": "medium",
+  "render_padding_color": "black",
+  "render_intro_path": "",
+  "render_outro_path": "",
+  "render_watermark": {
+    "path": "",
+    "position": "top-right",
+    "width": 320,
+    "margin": 40,
+    "opacity": 0.9
+  },
+  "render_background_music": {
+    "path": "",
+    "volume": 0.08,
+    "ducking": 0.8
+  },
+  "render_loudness": {
+    "target_i": -16.0,
+    "target_tp": -1.5,
+    "target_lra": 11.0
+  },
+  "output_filename_template": "final_{timestamp}.mp4",
+  "hashtags": [
+    "your",
+    "hashtags",
+    "here"
+  ],
+  "default_title": "My automated compilation",
+  "description_template": "Automatisiert generierte Compilation.",
+  "youtube_privacy_status": "private",
+  "youtube_category_id": "24",
+  "youtube_credentials_path": "./config/client_secret.json",
+  "youtube_token_path": "./config/token.json"
+}
+
